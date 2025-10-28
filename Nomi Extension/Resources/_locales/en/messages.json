@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Nomi",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Create calendar invites from natural language text.",
+        "description": "Description of what the extension does."
+    }
+}

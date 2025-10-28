@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomi</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="popup-container">
+        <div class="title-bar">
+            
+            <h1 class="title">Nomi</h1>
+        </div>
+        
+        <p class="subtitle">Turn any text into time.</p>
+        
+        <div class="input-wrapper">
+            <textarea 
+                id="textInput" 
+                placeholder="Meeting with Sam on Friday at 3 PM"
+                rows="2"
+                autofocus
+            ></textarea>
+            <p class="hint">Press Enter or click Create Invite.</p>
+        </div>
+        
+        <button id="createButton" class="primary-button">
+            <span>Create Invite</span>
+        </button>
+        
+        <div id="status" class="status-message"></div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
